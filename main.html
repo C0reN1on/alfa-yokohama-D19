@@ -114,7 +114,6 @@ Youtube貼り付けここまで -->
                 以下の画像を手掛かりに、正しい順番でボタンを押してみよう！<br>
                 ※解答方法に注意してください。
               </p>
-              <img src="assets/images/stage2_2.png" alt="" style="display: block; width: 50%; margin: 0 auto; ">
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -135,11 +134,12 @@ Youtube貼り付けここまで -->
                 <div class="column">
                   <!-- STAGE2-1問題セクション　ここから -->
                   <figure class="image__container">
-                    <img src="assets/images/stage2.png" alt="">
+                    <img src="assets/images/stage2_2.png" alt="" style="display: inline; width: 50%;">
+                    <img src="assets/images/stage2.png" alt="" style="display: inline; width: 50%;">
                   </figure>
                   <!-- STAGE2-1問題セクション　ここまで -->
                   <!-- STAGE2-1解答入力セクション　ここから -->
-                  <p class="text-center" style="color: #FFF;">解答方法: "紫□回 オレンジ□回 白□回"</p>
+                  <p class="text-center" style="color: #FFF;">解答方法: "オレンジ□回 紫□回 白□回"</p>
                   <answer-input v-bind:correct="correctAnswer['stage2']['q1']" v-on:answer-input="answerInput($event, 'stage2', 1)"></answer-input>
                   <a class="link-hint" href="hint2.html" target="hint2">ヒントをみる</a>
                   <!-- STAGE2-1解答入力セクション　ここまで -->
